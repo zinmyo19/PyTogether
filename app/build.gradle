@@ -1,0 +1,29 @@
+plugins { id 'com.android.application'; id 'com.chaquo.python' }
+android {
+ namespace 'com.zynelabs.pytogether'
+ compileSdk 34
+ buildFeatures { buildConfig true }
+ signingConfigs {
+  // Optional: set pt.keystore, pt.storePassword, pt.keyAlias, pt.keyPassword in ~/.gradle/gradle.properties
+  // to sign debug builds with your own key. Otherwise Android's default debug key is used.
+  if (project.hasProperty('pt.keystore')) {
+   debug {
+    storeFile file(project.property('pt.keystore'))
+    storePassword project.property('pt.storePassword')
+    keyAlias project.property('pt.keyAlias')
+    keyPassword project.property('pt.keyPassword')
+   }
+  }
+ }
+ defaultConfig {
+  applicationId 'com.zynelabs.pytogether'
+  minSdk 24
+  targetSdk 34
+  versionCode 4
+  versionName '0.4.0-codegen'
+  testInstrumentationRunner 'com.zynelabs.pytogether.SmokeInstrumentation'
+  ndk { abiFilters 'arm64-v8a', 'x86_64' }
+ }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+chaquopy { defaultConfig { version = '3.11'; buildPython(project.findProperty('pt.buildPython') ?: 'python3.11'); pip { install 'pip==24.3.1' } } }

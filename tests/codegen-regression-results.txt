@@ -1,0 +1,116 @@
+# PyTogether 0.4.0-codegen emulator regression (API 28, software emulator)
+== NetworkTools (fresh state)
+PASS launch opens Home
+PASS Home has Code Editor and Learning choices
+PASS Error Helper stays out of Home choices
+PASS Code Editor opens free practice
+PASS editor works after Home
+PASS Home round trip retains draft
+PASS Offline gate blocks AI
+PASS Online mode explicitly enabled
+PASS HTTPS endpoint validation rejects unsafe inputs
+PASS AI configuration saved
+PASS API key is not plaintext in app preferences
+PASS Keystore can decrypt saved key
+PASS AI requires explicit code-send confirmation
+PASS AI review does not modify code
+PASS provider change clears saved key
+PASS Android runtime pip installs colorama pure-Python wheel
+PASS installed colorama imports in practice engine
+PASS pip rejects URL/options package names
+PASS installed package works in Offline mode
+PASS final Home remains available
+== Smoke
+PASS initial offline Python startup
+PASS portrait
+PASS auto-run arithmetic without Run button
+PASS edited output replaces previous output
+PASS beginner NameError feedback
+PASS unfinished typing syntax feedback
+PASS stdin auto-run
+PASS infinite Python loop guard
+PASS engine recovers after limit
+PASS lesson switch
+PASS actual data-flow snapshots
+PASS custom exercise
+PASS return to saved first lesson
+PASS per-lesson draft persisted
+PASS helper receives syntax error
+PASS Burmese one-concept explanation
+PASS diagnostics never silently overwrite
+PASS preview does not change source
+PASS cancel keeps original source
+PASS explicit apply auto-runs fixed source
+PASS only missing colon added
+PASS undo restores error
+PASS undo restores exact original
+PASS new code runs despite stale preview
+PASS stale preview cannot overwrite new edits
+PASS lowercase boolean diagnostic
+PASS boolean fix works on bundled Python
+PASS manual edits after helper fix
+PASS undo cannot overwrite later typing
+PASS lesson stale test error
+PASS lesson remains intact after stale apply
+PASS stale preview cannot replace another lesson
+PASS final screenshot state
+== Settings
+PASS new version retains selected lesson after update
+PASS old draft still loaded
+PASS settings default auto-run on
+PASS upgraded existing draft runs
+PASS settings opens from native screen
+PASS font setting persisted
+PASS font applied to editor and output
+PASS font keeps code and cursor
+PASS font option 0
+PASS font option 1
+PASS font option 2
+PASS font option 3
+PASS font option 4
+PASS helper panel hidden
+PASS trace content and controls hidden
+PASS manual Run action visible
+PASS auto-run off does not execute edits
+PASS manual edit status honest
+PASS manual Run uses latest code and stdin
+PASS reenabled auto-run executes
+PASS 1500ms delay does not run at 500ms
+PASS selected delay eventually runs
+PASS restart retains selected lesson
+PASS restart retains code and stdin
+PASS restart retains all settings
+PASS restart reapplies visibility
+PASS manual works after restart
+PASS reset Cancel leaves settings
+PASS reset restores settings defaults
+PASS reset retains every draft and selected lesson
+PASS reset restores panels and auto mode
+PASS reset defaults auto-run without deleting input
+PASS disabling auto-run cancels queued debounce
+PASS settings final clean example
+== HelperFiles
+PASS import disables auto-run
+PASS import keeps prior code backup
+PASS import keeps prior input backup
+PASS import loads code
+PASS import does not execute automatically
+PASS manual run after import
+PASS bounded UTF-8 file read
+PASS invalid UTF-8 file rejected
+PASS file export writes captured UTF-8 snapshot
+PASS file export does not change editor
+PASS parse plain advice JSON
+PASS parse fenced advice JSON
+PASS reject prose as advice
+PASS async fix shows review dialog
+PASS review preview leaves editor unchanged
+PASS accepted fix changes editor
+PASS undo restores exact source
+PASS stale fix cannot apply
+PASS invalid async fix does not apply
+PASS offline helper syntax error
+PASS offline helper dialog shows
+PASS offline helper explains in Burmese
+PASS offline helper leaves editor unchanged
+== CodeGenerator

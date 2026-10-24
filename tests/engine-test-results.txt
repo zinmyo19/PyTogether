@@ -1,0 +1,14 @@
+test_all_lesson_outputs (test_engine.PracticeEngineTests.test_all_lesson_outputs)
+Every lesson executes on host CPython and produces its documented output. ... ok
+test_baseexception_system_exit_is_reported (test_engine.PracticeEngineTests.test_baseexception_system_exit_is_reported) ... ok
+test_empty_code (test_engine.PracticeEngineTests.test_empty_code) ... ok
+test_output_cap (test_engine.PracticeEngineTests.test_output_cap) ... ok
+test_stdin_and_eof (test_engine.PracticeEngineTests.test_stdin_and_eof) ... ok
+test_syntax_name_and_zero_division_errors (test_engine.PracticeEngineTests.test_syntax_name_and_zero_division_errors) ... ok
+test_timeout_infinite_loop (test_engine.PracticeEngineTests.test_timeout_infinite_loop) ... ok
+test_variables_after_each_line (test_engine.PracticeEngineTests.test_variables_after_each_line) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.024s
+
+OK

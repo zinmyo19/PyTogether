@@ -1,0 +1,48 @@
+
+PASS launch opens Home
+PASS Home has AI Code Generator choice
+PASS Generator screen opens (third screen) without autorun
+PASS Generator shows Offline when Online is off
+PASS Ready examples listed offline
+PASS Offline generator returns recipe with steps
+PASS Offline result does not touch editor
+PASS Review dialog appears and shows old draft + new code
+PASS Declining review leaves editor untouched
+PASS Accepting inserts code in Code Editor, auto-run off, editor screen
+PASS Previous draft kept for restore
+PASS Accepted recipe runs on device
+PASS No-match offline request gives honest message
+PASS No-match shows no code box
+PASS Offline check lists the mistake with line
+PASS OpenCode preset fills endpoint
+PASS OpenCode preset fills model
+PASS OpenAI active with its own key
+PASS Keys not plaintext in prefs
+PASS Switching back keeps OpenCode key
+PASS Offline mode never calls the AI provider
+PASS Online note names provider
+PASS Online result shows AI code, steps, library note
+PASS Provider got saved key, Burmese-teacher prompt, user request
+PASS Missing library numpy is flagged
+PASS Online result did not change the editor
+PASS Check mode asks before sending code
+PASS Online check lists mistake and fixed code
+PASS Fix was NOT applied automatically
+PASS Check again moves fixed code into the checker
+PASS Provider error shown in Burmese status
+PASS After error the screen is usable again
+PASS Loose (non-JSON) answer still shows code
+PASS parseResult: null code stays null
+PASS parseResult: fixed_code alias accepted
+PASS parseResult: fenced code string is unwrapped
+PASS parseResult: garbage does not crash
+PASS Back from Generator returns Home
+LIVE opencode: Provider returned HTTP 401 · API key မှန်လား စစ်ပါ။ Missing API key.
+LIVE openai: Provider returned HTTP 401 · API key မှန်လား စစ်ပါ။ You didn't provide an API key. You need to provide your API key in an Authorization header using Bearer auth (i.e. Authorization: Bearer YOUR_KEY), or as the password field (with blank username) if you're accessing the API from your browser…
+LIVE openrouter: Provider returned HTTP 401 · API key မှန်လား စစ်ပါ။ No cookie auth credentials found
+LIVE deepseek: Provider returned HTTP 401 · API key မှန်လား စစ်ပါ။ Authentication Fails (governor)
+LIVE groq: Provider returned HTTP 401 · API key မှန်လား စစ်ပါ။ Invalid API Key
+
+38 checks passed
+No real AI answer tested: owner provider/key not supplied.
+

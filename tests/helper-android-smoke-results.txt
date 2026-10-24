@@ -1,0 +1,37 @@
+
+PASS initial offline Python startup
+PASS portrait
+PASS auto-run arithmetic without Run button
+PASS edited output replaces previous output
+PASS beginner NameError feedback
+PASS unfinished typing syntax feedback
+PASS stdin auto-run
+PASS infinite Python loop guard
+PASS engine recovers after limit
+PASS lesson switch
+PASS actual data-flow snapshots
+PASS custom exercise
+PASS return to saved first lesson
+PASS per-lesson draft persisted
+PASS helper receives syntax error
+PASS Burmese one-concept explanation
+PASS diagnostics never silently overwrite
+PASS preview does not change source
+PASS cancel keeps original source
+PASS explicit apply auto-runs fixed source
+PASS only missing colon added
+PASS undo restores error
+PASS undo restores exact original
+PASS new code runs despite stale preview
+PASS stale preview cannot overwrite new edits
+PASS lowercase boolean diagnostic
+PASS boolean fix works on bundled Python
+PASS manual edits after helper fix
+PASS undo cannot overwrite later typing
+PASS lesson stale test error
+PASS lesson remains intact after stale apply
+PASS stale preview cannot replace another lesson
+PASS final screenshot state
+
+33 checks passed
+

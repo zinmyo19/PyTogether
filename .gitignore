@@ -1,0 +1,13 @@
+.gradle/
+**/build/
+local.properties
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+*.apk
+*.aab
+*.keystore
+*.jks
+*.p12
+keystore.properties

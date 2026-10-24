@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <instrumentation android:name="com.zynelabs.pytogether.SmokeInstrumentation" android:targetPackage="com.zynelabs.pytogether" />
+    <instrumentation android:name="com.zynelabs.pytogether.SettingsInstrumentation" android:targetPackage="com.zynelabs.pytogether" />
+    <instrumentation android:name="com.zynelabs.pytogether.NetworkToolsInstrumentation" android:targetPackage="com.zynelabs.pytogether" />
+    <instrumentation android:name="com.zynelabs.pytogether.HelperFilesInstrumentation" android:targetPackage="com.zynelabs.pytogether" />
+    <instrumentation android:name="com.zynelabs.pytogether.CodeGeneratorInstrumentation" android:targetPackage="com.zynelabs.pytogether" />
+</manifest>

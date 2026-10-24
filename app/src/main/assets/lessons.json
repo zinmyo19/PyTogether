@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Print",
+    "burmeseTitle": "စာသားကို ပြခြင်း",
+    "concept": "print() သည် ပရိုဂရမ်က ထုတ်ပေးလိုသော စာသားကို မျက်နှာပြင်ပေါ်တွင် ပြပေးသည်။",
+    "code": "message = \"မင်္ဂလာပါ Python\"\noutput = message\nprint(output)",
+    "expectedOutput": "မင်္ဂလာပါ Python",
+    "steps": [
+      "Input: စာသားတန်ဖိုးကို \"မင်္ဂလာပါ Python\" ဟု သတ်မှတ်ပါ။",
+      "Store: message ထဲတွင် ထိုတန်ဖိုးကို သိမ်းပါ။",
+      "Transform: ဒီသင်ခန်းစာတွင် ပြောင်းလဲမှု မလုပ်သေးပါ။",
+      "Output: print() ဖြင့် message ကို ပြပါ။"
+    ],
+    "challenge": "သင့်အမည်ကို စာသားအဖြစ် ထည့်ပြီး မျက်နှာပြင်ပေါ်တွင် ပြပါ။",
+    "hint": "message = \"သင့်အမည်\" ဟုရေးပြီး နောက်တစ်ကြောင်းတွင် print(message) ကို သုံးပါ။"
+  },
+  {
+    "id": 2,
+    "title": "Variable Flow",
+    "burmeseTitle": "တန်ဖိုးစီးဆင်းမှု",
+    "concept": "Variable သည် တန်ဖိုးတစ်ခုကို သိမ်းထားသော အမည်ပေးထားသည့် နေရာဖြစ်သည်။ တန်ဖိုးသည် သိမ်းပြီးနောက် output သို့ စီးဆင်းသည်။",
+    "code": "name = \"မောင်မောင်\"\ngreeting = \"မင်္ဂလာပါ \" + name\nprint(greeting)",
+    "expectedOutput": "မင်္ဂလာပါ မောင်မောင်",
+    "steps": [
+      "Input: name ထဲသို့ \"မောင်မောင်\" တန်ဖိုး ဝင်လာသည်။",
+      "Store: name variable ထဲတွင် အမည်ကို သိမ်းထားသည်။",
+      "Transform: greeting သည် နှုတ်ဆက်စာနှင့် name ကို ပေါင်းစပ်သည်။",
+      "Output: print() က greeting ကို ပြသည်။"
+    ],
+    "challenge": "သင့်မိတ်ဆွေအမည်နှင့် \"ကြိုဆိုပါတယ် \" ကို ပေါင်းပြီး ပြပါ။",
+    "hint": "name ကို ပြောင်းပါ။ greeting = \"ကြိုဆိုပါတယ် \" + name ဟုရေးပါ။"
+  },
+  {
+    "id": 3,
+    "title": "Arithmetic",
+    "burmeseTitle": "ဂဏန်းတွက်ချက်ခြင်း",
+    "concept": "Python သည် +, -, *, / အော်ပရေတာများဖြင့် ဂဏန်းများကို တွက်ချက်နိုင်သည်။",
+    "code": "price = 1200\ncount = 3\ntotal = price * count\nprint(total)",
+    "expectedOutput": "3600",
+    "steps": [
+      "Input: price နှင့် count တန်ဖိုးများ ဝင်လာသည်။",
+      "Store: variable နှစ်ခုထဲတွင် ဈေးနှုန်းနှင့် အရေအတွက်ကို သိမ်းပါ။",
+      "Transform: total = price * count ဖြင့် စုစုပေါင်းကို တွက်ပါ။",
+      "Output: print(total) ဖြင့် ရလဒ်ကို ပြပါ။"
+    ],
+    "challenge": "စာအုပ်တစ်အုပ် 2500 ကျပ်၊ 4 အုပ်ဝယ်လျှင် စုစုပေါင်းကို တွက်ပါ။",
+    "hint": "price = 2500 နှင့် count = 4 ဟု ပြောင်းပြီး total = price * count ကို မပြောင်းပါနှင့်။"
+  },
+  {
+    "id": 4,
+    "title": "Input",
+    "burmeseTitle": "အသုံးပြုသူထံမှ ထည့်သွင်းချက်",
+    "concept": "input() သည် အသုံးပြုသူထံမှ စာသားကို ယူသည်။ ထိုစာသားကို variable ထဲသိမ်းပြီး output အဖြစ် ပြနိုင်သည်။",
+    "code": "name = input()\ngreeting = \"မင်္ဂလာပါ \" + name\nprint(greeting)",
+    "expectedOutput": "နမူနာ input: မေမေ\nမင်္ဂလာပါ မေမေ",
+    "steps": [
+      "Input: input() တွင် အသုံးပြုသူက မေမေ ဟု ရိုက်ထည့်သည်။",
+      "Store: name variable ထဲတွင် ရိုက်ထည့်သော စာသားကို သိမ်းသည်။",
+      "Transform: greeting သည် နှုတ်ဆက်စာနှင့် name ကို ပေါင်းသည်။",
+      "Output: print() က greeting ကို ပြသည်။"
+    ],
+    "challenge": "အသုံးပြုသူထံမှ မြို့အမည်ကို ယူပြီး \"သင်နေသောမြို့: \" နှင့်အတူ ပြပါ။",
+    "hint": "city = input() ဟုယူပြီး print(\"သင်နေသောမြို့: \" + city) ဟုရေးပါ။"
+  },
+  {
+    "id": 5,
+    "title": "If",
+    "burmeseTitle": "အခြေအနေစစ်ခြင်း",
+    "concept": "if သည် အခြေအနေမှန်လျှင်သာ သတ်မှတ်ထားသော output ကို ထုတ်ပေးသည်။",
+    "code": "score = 75\nif score >= 50:\n    result = \"အောင်မြင်သည်\"\nprint(result)",
+    "expectedOutput": "အောင်မြင်သည်",
+    "steps": [
+      "Input: score ထဲသို့ 75 တန်ဖိုး ဝင်လာသည်။",
+      "Store: score variable ထဲတွင် အမှတ်ကို သိမ်းသည်။",
+      "Transform: score >= 50 ဟုတ်မဟုတ် if ဖြင့် စစ်သည်။ မှန်သောကြောင့် result ကို သတ်မှတ်သည်။",
+      "Output: print(result) ဖြင့် အောင်မြင်မှုကို ပြသည်။"
+    ],
+    "challenge": "အမှတ် 50 နှင့်အထက်ကို \"အောင်မြင်သည်\"၊ မဟုတ်လျှင် \"ကြိုးစားပါ\" ဟု ပြပါ။",
+    "hint": "if score >= 50: အောက်တွင် result ကို သတ်မှတ်ပါ။ else: အောက်တွင် အခြားစာသားကို သတ်မှတ်ပါ။"
+  },
+  {
+    "id": 6,
+    "title": "For Loop",
+    "burmeseTitle": "အကြိမ်ကြိမ် လုပ်ဆောင်ခြင်း",
+    "concept": "for loop သည် list ထဲရှိ တန်ဖိုးတစ်ခုချင်းစီကို ယူပြီး တူညီသောလုပ်ဆောင်ချက်ကို ထပ်ခါတလဲလဲ ပြုလုပ်သည်။",
+    "code": "items = [\"ပန်းသီး\", \"ငှက်ပျောသီး\", \"သရက်သီး\"]\nfor item in items:\n    print(item)",
+    "expectedOutput": "ပန်းသီး\nငှက်ပျောသီး\nသရက်သီး",
+    "steps": [
+      "Input: items list ထဲသို့ သစ်သီးအမည်များ ဝင်လာသည်။",
+      "Store: list သည် အမည်သုံးခုကို သိမ်းထားသည်။",
+      "Transform: for loop က item တစ်ခုချင်းစီကို အလှည့်ကျ ယူသည်။",
+      "Output: အလှည့်တိုင်းတွင် print(item) ဖြင့် အမည်ကို ပြသည်။"
+    ],
+    "challenge": "သင်ကြိုက်သော အရောင် 3 မျိုးကို list ထဲထည့်ပြီး တစ်ကြောင်းစီ ပြပါ။",
+    "hint": "colors = [\"အနီ\", \"အပြာ\", \"အစိမ်း\"] ဟုရေးပြီး for color in colors: အောက်တွင် print(color) ထည့်ပါ။"
+  }
+]

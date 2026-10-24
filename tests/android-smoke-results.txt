@@ -1,0 +1,19 @@
+
+PASS initial offline Python startup
+PASS portrait
+PASS auto-run arithmetic without Run button
+PASS edited output replaces previous output
+PASS beginner NameError feedback
+PASS unfinished typing syntax feedback
+PASS stdin auto-run
+PASS infinite Python loop guard
+PASS engine recovers after limit
+PASS lesson switch
+PASS actual data-flow snapshots
+PASS custom exercise
+PASS return to saved first lesson
+PASS per-lesson draft persisted
+PASS final screenshot state
+
+15 checks passed
+

@@ -1,0 +1,23 @@
+test_all_lesson_outputs (test_engine.PracticeEngineTests.test_all_lesson_outputs)
+Every lesson executes on host CPython and produces its documented output. ... ok
+test_baseexception_system_exit_is_reported (test_engine.PracticeEngineTests.test_baseexception_system_exit_is_reported) ... ok
+test_empty_code (test_engine.PracticeEngineTests.test_empty_code) ... ok
+test_output_cap (test_engine.PracticeEngineTests.test_output_cap) ... ok
+test_stdin_and_eof (test_engine.PracticeEngineTests.test_stdin_and_eof) ... ok
+test_syntax_name_and_zero_division_errors (test_engine.PracticeEngineTests.test_syntax_name_and_zero_division_errors) ... ok
+test_timeout_infinite_loop (test_engine.PracticeEngineTests.test_timeout_infinite_loop) ... ok
+test_variables_after_each_line (test_engine.PracticeEngineTests.test_variables_after_each_line) ... ok
+test_colon_fix_preserves_comment_and_multiline_source (test_helper.BeginnerHelperTests.test_colon_fix_preserves_comment_and_multiline_source) ... ok
+test_colon_fix_rejects_string_and_comment_mentions (test_helper.BeginnerHelperTests.test_colon_fix_rejects_string_and_comment_mentions) ... ok
+test_error_families_have_guidance_without_inventing_values (test_helper.BeginnerHelperTests.test_error_families_have_guidance_without_inventing_values) ... ok
+test_integration_adds_helper_without_breaking_existing_result (test_helper.BeginnerHelperTests.test_integration_adds_helper_without_breaking_existing_result) ... ok
+test_known_typo_only_and_unknown_name_no_speculation (test_helper.BeginnerHelperTests.test_known_typo_only_and_unknown_name_no_speculation) ... ok
+test_literal_fix_does_not_touch_quotes_or_comments (test_helper.BeginnerHelperTests.test_literal_fix_does_not_touch_quotes_or_comments) ... ok
+test_missing_colon_fix_and_full_source (test_helper.BeginnerHelperTests.test_missing_colon_fix_and_full_source) ... ok
+test_python_literal_fixes_are_token_and_ast_aware (test_helper.BeginnerHelperTests.test_python_literal_fixes_are_token_and_ast_aware) ... ok
+test_success_is_honest_and_has_no_fix (test_helper.BeginnerHelperTests.test_success_is_honest_and_has_no_fix) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.026s
+
+OK
